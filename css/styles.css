@@ -20,8 +20,13 @@ font-family: 'Raleway';
     color: #2196F3;
 }
 .nav-link:hover{
-color:#000000 ;
+    color: #2196F3;
+background:#000000 ;
 }
 .mail-link:hover,:focus{
-color: #000000;
+color: #2196F3;
+    background: #000000
+}
+.tel-link:hover,:focus{
+    color: #757575;
 }
