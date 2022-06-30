@@ -1,171 +1,173 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000000;
+  background: #e5e5e5;
+  /*header*/
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
 
-    color: #000000;
-    background: #E5E5E5;
-    /*header*/
+span.accent {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
 }
-.logo{
-font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: #000000;
+.nav-link:hover {
+  color: #2196f3;
+  background: #000000;
 }
-
-span.accent{
-font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: #2196F3;
+.mail-auth-link:hover:focus {
+  color: #2196f3;
+  background: #000000;
 }
-.nav-link:hover{
-    color: #2196F3;
-background:#000000 ;
-}
-.mail-auth-link:hover,:focus{
-color: #2196F3;
-    background: #000000
-}
-.tel-auth-link:hover,:focus{
-    color: #757575;
+.tel-auth-link:hover:focus {
+  color: #757575;
 }
 /*main*/
 .main {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
-.main-title{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        color: #FFFFFF;
+.main-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
 }
-.main-btn{
-    cursor: pointer;
-    color: #FFFFFF;
-    background-color: #2196F3;
+.main-btn {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 /*lifestyle*/
-.title-lifestyle{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        color: #212121;
-
+.title-lifestyle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
 }
-.text-lifestyle{
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #757575;
+.text-lifestyle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
 }
 /*about*/
-.title-about{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        color: #212121;
+.title-about {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
 }
-.title-team{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;  
-        color: #212121;
+.title-team {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
 }
-.text-name{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-      color: #212121;;
+.text-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
 }
-.text-team{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;  
-        color: #757575;
+.text-team {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
 }
 /**footer*/
-.footer{
-    background: #2F303A;
+.footer {
+  background: #2f303a;
 }
-.address{
-    color: #FFFFFF;
+.address {
+  color: #ffffff;
 }
-.mail-link{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-    color: #FFFFFF;
-        color: rgba(255, 255, 255, 0.6);
+.mail-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
 }
-.tel-link:hover, :focus{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #FFFFFF;
-        color: rgba(255, 255, 255, 0.6);
+.tel-link:hover,
+.tel-link:focus {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
 }
-.footer-logo{
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        color: #FFFFFF;
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
 }
-span.footer-accent{
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        color: #2196F3;
+span.footer-accent {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
 }
 /*portfolio*/
-.btn:hover, :focus{
-    cursor: pointer;
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
 }
-.list-btn:hover,:focus{
-color: #FFFFFF;
-background-color: #2196F3;
+.list-btn:hover,
+.list-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
 }
-.title-portfolio{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 36px;
-        color: #212121;
+.title-portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
 }
-.text-portfolio{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        color: #757575;
+.text-portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
-
