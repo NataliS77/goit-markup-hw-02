@@ -23,10 +23,140 @@ font-family: 'Raleway';
     color: #2196F3;
 background:#000000 ;
 }
-.mail-link:hover,:focus{
+.mail-auth-link:hover,:focus{
 color: #2196F3;
     background: #000000
 }
-.tel-link:hover,:focus{
+.tel-auth-link:hover,:focus{
     color: #757575;
+}
+.main {
+    background-color: #2F303A;
+}
+.main-title{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        color: #FFFFFF;
+}
+.main-btn{
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.title-lifestyle{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+
+}
+.text-lifestyle{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+.title-about{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #212121;
+}
+.title-team{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;  
+        color: #212121;
+}
+.text-name{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+      color: #212121;;
+}
+.text-team{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;  
+        color: #757575;
+}
+.footer{
+    background: #2F303A;
+}
+.address{
+    color: #FFFFFF;
+}
+.mail-link{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    color: #FFFFFF;
+        color: rgba(255, 255, 255, 0.6);
+}
+.tel-link{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+        color: rgba(255, 255, 255, 0.6);
+}
+.footer-logo{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        color: #FFFFFF;
+}
+span.footer-accent{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        color: #2196F3;
+}
+.btn{
+    cursor: pointer;
+}
+.list-btn:hover,:focus{
+color: #FFFFFF;
+background-color: #2196F3;
+}
+.title-portfolio{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #212121;
+}
+.text-portfolio{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #757575;
 }
