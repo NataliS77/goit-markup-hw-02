@@ -26,11 +26,11 @@ span.accent {
   color: #2196f3;
   background: #000000;
 }
-.mail-auth-link:hover:focus {
+.mail-auth-link:hover .mail-auth-link:focus {
   color: #2196f3;
   background: #000000;
 }
-.tel-auth-link:hover:focus {
+.tel-auth-link:hover .tel-auth-link:focus {
   color: #757575;
 }
 /*main*/
@@ -150,7 +150,8 @@ span.footer-accent {
   cursor: pointer;
 }
 .list-btn:hover,
-.list-btn:focus {
+.list-btn:focus,
+.list-btn:active {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
