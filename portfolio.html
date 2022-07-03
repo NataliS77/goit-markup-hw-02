@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,900;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -17,21 +17,25 @@
     <!--header section-->
     <header class="header">
       <nav>
-        <a class="logo" href=""><span class="accent">Web</span> Studio</a>
-        <ul class="nav-list">
-          <li><a class="nav-link" href="./index.html">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link-nav" href="">Контакты</a></li>
+        <a class="logo" href=""><span class="accent">Web</span>Studio</a>
+        <ul class="list site-nav">
+          <li class="link">
+            <a class="link nav-link" href="./index.html">Студия</a>
+          </li>
+          <li class="link">
+            <a class="link nav-link current" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li"><a class="link nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="auth-list">
-        <li>
-          <a class="mail-auth-link" href="mailto:info@devstudio.com"
+      <ul class="list auth-list">
+        <li class="">
+          <a class="link mail-auth" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li>
-          <a class="tel-auth-link" href="tle:+380961111111"
+        <li class="">
+          <a class="link tel-auth" href="tle:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
@@ -40,7 +44,7 @@
     <!--main-->
     <main>
       <section class="portfolo-section">
-        <ul class="section-list">
+        <ul class="list section-list">
           <li>
             <button class="list-btn" type="button">Все</button>
           </li>
@@ -51,52 +55,80 @@
         </ul>
         <!--Логичний зоголовок-->
         <h1>Портфолио</h1>
-        <ul class="list-portfolio">
-          <li>
-            <img src="./images/people.jpg" alt="people" width="370" />
+        <ul class="list list-portfolio">
+          <li> 
+            <a href="" class="link">
+              <img src="./images/people.jpg" alt="people" width="370" />
             <h2 class="title-portfolio">Технокряк</h2>
             <p class="text-portfolio">Веб-сайт</p>
+            </a>
+            
           </li>
-          <li>
-            <img src="./images/poster.jpg" alt="poster" width="370" />
+          <li> 
+            <a href="" class="link">
+           <img src="./images/poster.jpg" alt="poster" width="370" />
             <h2 class="title-portfolio">Постер New Orlean vs Golden Star</h2>
             <p class="text-portfolio">Дизайн</p>
+
+            </a>
+           
           </li>
-          <li>
-            im
-            <img src="./images/restaurant.jpg" alt="restaurant" width="370" />
+          <li> 
+            <a href="" class="link">
+              <img src="./images/restaurant.jpg" alt="restaurant" width="370" />
             <h2 class="title-portfolio">Ресторан Seafood</h2>
             <p class="text-portfolio">Приложение</p>
+
+            </a>
+            
           </li>
-          <li>
+          <li> 
+            <a href="" class="link">
             <img src="./images/headphone.jpg" alt="headphone" width="370" />
             <h2 class="title-portfolio">Проект Prime</h2>
             <p class="text-portfolio">Маркетинг</p>
+            </a>
+            
           </li>
-          <li>
+          <li> 
+            <a href="" class="link">
             <img src="./images/box.jpg" alt="box" width="370" />
             <h2 class="title-portfolio">Проект Boxes</h2>
             <p class="text-portfolio">Приложение</p>
+            </a>
+            
           </li>
-          <li>
+          <li> 
+            <a href="" class="link">
             <img src="./images/map.jpg" alt="map" width="370" />
             <h2 class="title-portfolio">Inspiration has no Borders</h2>
             <p class="text-portfolio">Веб-сайт</p>
+            </a>
+            
           </li>
-          <li>
+          <li> 
+            <a href="" class="link">
             <img src="./images/magazine.jpg" alt="magazine" width="370" />
             <h2 class="title-portfolio">Издание Limited Edition</h2>
             <p class="text-portfolio">Дизайн</p>
+            </a>
+            
           </li>
-          <li>
+          <li> 
+            <a href="" class="link">
             <img src="./images/label.jpg" alt="label" width="370" />
             <h2 class="title-portfolio">Проект LAB</h2>
             <p class="text-portfolio">Маркетинг</p>
+            </a>
+            
           </li>
-          <li>
+          <li> 
+            <a href="" class="link">
             <img src="./images/netbook.jpg" alt="netbook" width="370" />
             <h2 class="title-portfolio">Growing Business</h2>
             <p class="text-portfolio">Приложение</p>
+            </a>
+            
           </li>
         </ul>
       </section>
@@ -104,17 +136,17 @@
     <!--footer-->
     <footer class="footer">
       <a class="footer-logo" href=""
-        ><span class="footer-accent">Web</span> Studio</a
+        >Web<span class="footer-accent">Studio</span></a
       >
       <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="list auth-list">
+      <ul class="list list-auth">
         <li>
-          <a class="mail-link" href="mailto:info@example.com"
+          <a class="mail-footer link" href="mailto:info@example.com"
             >info@example.com</a
           >
         </li>
         <li>
-          <a class="tel-link" href="tel:+380991111111">+38 099 111 11 11</a>
+          <a class="tel-footer link" href="tel:+380991111111">+38 099 111 11 11</a>
         </li>
       </ul>
     </footer>

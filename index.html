@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,900;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -16,23 +16,27 @@
 
   <body>
     <!--шапка сайта-->
-    <header class="page-header">
+    <header class="header">
       <nav>
-        <a class="logo" href=""><span class="accent">Web</span> Studio</a>
-        <ul class="nav-list">
-          <li><a class="nav-link" href="./index.html">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
+        <a class="logo" href=""><span class="accent">Web</span>Studio</a>
+        <ul class="list site-nav">
+          <li>
+            <a class="link nav-link current" href="./index.html">Студия</a>
+          </li>
+          <li>
+            <a class="link nav-link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li><a class="link nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="auth-list">
+      <ul class="list auth-list">
         <li>
-          <a class="mail-auth-link" href="mailto:info@devstudio.com"
+          <a class="link mail-auth actual" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="tel-auth-link" href="tle:+380961111111"
+          <a class="link tel-auth" href="tle:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
@@ -80,7 +84,7 @@
       <!--about section-->
       <section class="about">
         <h2 class="title-about">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list about-list">
           <li><img src="./images/comp.jpg" alt="компьютер" width="370" /></li>
           <li><img src="./images/f_3.jpg" alt="телефон" width="370" /></li>
           <li><img src="./images/color.jpg" alt="цвет" width="370" /></li>
@@ -89,7 +93,7 @@
       <!--our team-->
       <section class="team">
         <h2 class="title-team">Наша команда</h2>
-        <ul class="list-team">
+        <ul class="list list-team">
           <li class="item">
             <img src="./images/img.jpg" alt="сотрудник" width="270" />
             <p class="text-name">Игорь Демьяненко</p>
@@ -115,17 +119,19 @@
     </main>
     <footer class="footer">
       <a class="footer-logo" href=""
-        ><span class="footer-accent">Web</span> Studio</a
+        >Web<span class="footer-accent">Studio</span></a
       >
       <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
       <ul class="list auth-list">
         <li>
-          <a class="mail-link" href="mailto:info@example.com"
+          <a class="mail-footer link" href="mailto:info@example.com"
             >info@example.com</a
           >
         </li>
         <li>
-          <a class="tel-link" href="tel:+380991111111">+38 099 111 11 11</a>
+          <a class="tel-footer link" href="tel:+380991111111"
+            >+38 099 111 11 11</a
+          >
         </li>
       </ul>
     </footer>
