@@ -190,14 +190,13 @@ span.accent {
 .tel-footer {
   color: var(--title-text-color);
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
 
 .footer-logo {
-  color: var(--acctent-color);
-
+  color: var(--title-text-color);
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -205,7 +204,7 @@ line-height: 1.7;
   text-decoration: none;
 }
 span.footer-accent {
-  color: var(--title-text-color);
+  color: var(--acctent-color);
 
   font-family: "Raleway";
   font-weight: 700;
