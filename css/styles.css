@@ -101,6 +101,7 @@ span.accent {
 }
 .main-title {
   color: var(--title-text-color);
+  font-family: Roboto;
 
   font-weight: 900;
   font-size: 44px;
@@ -112,7 +113,8 @@ span.accent {
 .main-btn {
   color: var(--title-text-color);
   background-color: var(--acctent-color);
-
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -175,7 +177,7 @@ span.accent {
 }
 .address {
   color: var(--title-text-color);
-
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -216,8 +218,9 @@ span.footer-accent {
 .list-btn {
   color: var(--title-text-color);
   background-color: var(--acctent-color);
-
   cursor: pointer;
+
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -231,6 +234,7 @@ span.footer-accent {
 .btn {
   color: var(--primary-text-color);
   cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
